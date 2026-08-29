@@ -10,8 +10,11 @@ body {
     font-family: var(--font-main);
     background-color: var(--blue-600);
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
-    background-repeat: no-repeat, no-repeat;
     background-position: right 40vw bottom 40vh, left 40vw top 40vh;
+    @include mq-large {
+        background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    }
+    background-repeat: no-repeat, no-repeat;
     min-height: 100vh;
     display: flex;
     justify-content: center;
