@@ -19,3 +19,11 @@
 
     --font-main: 'Kumbh Sans', sans-serif;
 }
+
+$breakpoint-tablet: 768px;
+
+@mixin mq-large {
+    @media (min-width: #{$breakpoint-tablet}) {
+        @content;
+    }
+}
