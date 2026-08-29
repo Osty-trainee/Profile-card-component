@@ -2,6 +2,9 @@
     background-color: var(--white);
     width: 100%;
     max-width: 20.375rem;
+    @include mq-large {
+        max-width: 23.375rem;
+    }
     border-radius: 0.9375rem;
     overflow: hidden;
     box-shadow: 0 50px 100px -20px hsla(197, 84%, 20%, 0.25);
@@ -54,7 +57,7 @@
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1.25;
-        margin-bottom: var(--spacing-100);
+        margin-top: var(--spacing-100);
     }
 
     &__divider {
