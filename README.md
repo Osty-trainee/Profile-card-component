@@ -6,6 +6,7 @@ This is my professional solution to the [Profile card component challenge on Fro
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Links](#links)
   - [Screenshot](#screenshot)
   - [Tech Stack](#tech-stack)
 - [My Process & Architecture](#my-process--architecture)
@@ -17,6 +18,11 @@ This is my professional solution to the [Profile card component challenge on Fro
 ### The challenge
 
 The main objective of this challenge is to build a responsive profile card component and master the fluid positioning of complex decorative background patterns according to the provided Figma design.
+
+### Links
+
+- **Solution URL:** [Profile card component](https://github.com/Osty-trainee/Profile-card-component)
+- **Live Site URL:** [Profile card component](https://osty-trainee.github.io/Profile-card-component/)
 
 ### Screenshot
 
